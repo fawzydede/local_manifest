@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="fawzy" fetch="https://github.com/fawzydede"  />
-  <remote  name="los" fetch="https://github.com/LineageOS"  />
+  <remote name="fawzy" fetch="https://github.com/fawzydede"  />
+  <remote name="dolby" fetch="https://github.com/Meow-prjkt" />
 
   <remove-project name="packages_apps_Updater" />
 
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="fawzy" revision="fogos" />
-  <project name="android_hardware_motorola" path="hardware/motorola" remote="los" revision="lineage-23.2" />
-  <project name="android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="los" revision="lineage-23.2" />
+  <project name="android_hardware_dolby" path="hardware/dolby" remote="dolby" revision="lineage-23.1" />
+  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
+  <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" />
 </manifest>
