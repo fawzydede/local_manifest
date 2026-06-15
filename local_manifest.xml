@@ -3,7 +3,7 @@
   <remote name="fawzy" fetch="https://github.com/fawzydede"  />
   <remote name="LOS" fetch="https://github.com/LineageOS"  />
 
-  <project name="kernel/motorola/sm6375" path="kernel/motorola/sm6375" remote="fawzy" revision="16" />
+  <project name="kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="fawzy" revision="16" />
   <project name="vendor_motorola_fogos" path="vendor/motorola/fogos" remote="fawzy" revision="16" />
   <project name="vendor_motorola_sm6375-common" path="vendor/motorola/sm6375-common" remote="fawzy" revision="16" />
   <project name="vendor_motorola_motocamera" path="vendor/motorola/motocamera" remote="fawzy" revision="fogos" />
